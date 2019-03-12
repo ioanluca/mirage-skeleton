@@ -12,6 +12,9 @@ myocamlbuild.ml
 *.opam
 
 # Generated outputs
+*.cmi
+*.o
+*.cmx
 *.native
 *.cfg
 *.xen
