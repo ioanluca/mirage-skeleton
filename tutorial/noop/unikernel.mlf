@@ -1,0 +1,5 @@
+(module
+    ($start (global $Lwt $return_unit))
+    (_ (apply (global $Pervasives $print_endline) "hello from
+    malfunction"))
+(export))

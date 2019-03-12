@@ -1,0 +1,4 @@
+(module
+    (_ (apply (global $Logs $info) 
+    (lambda ($f) (apply $f "hello"))))
+(export))
